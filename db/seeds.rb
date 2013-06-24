@@ -69,6 +69,7 @@ stars = [
 ]
 
 Star.delete_all
+Movie.delete_all
 
 stars.each do |star_attrs|
   movies = star_attrs.delete(:movies)
